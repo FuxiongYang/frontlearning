@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <base target="_blank">
+</head>
+<body>
+    <!-- 标题 标签-->
+    <!-- 标题标签 显示加粗字体 -->
+    <h1 id="qwer">Title 1</h1>
+    <h2>Title 2</h2>
+    <h3>Title 3</h3>
+    <h4>Title 4</h4>
+    <h5>Title 5</h5>
+    <h6>Title 6</h6>
+
+    <!-- 段落 标签 -->
+    <!-- 段落标签 按照窗口宽度，自动换行 -->
+    <p>著作权归作者所有。
+        商业转载请联系作者获得授权，非商业转载请注明出处。
+        作者：Latm Ake
+        链接：http://www.zhihu.com/question/20523036/answer/35225920
+        来源：知乎
+        
+        由于zip格式中并没有指定编码格式，Windows下生成的zip文件中的编码是GBK/GB2312等，因此，导致这些zip文件在Linux下解压时出现乱码问题，因为Linux下的默认编码是UTF8。
+        
+        目前网上流传一种unzip -O cp936的方法，但一些unzip是没有-O这个选项的。
+        
+        我使用的版本 unzip 6.0 debian modified 版本有这个选项
+        
+        我发现另外两种解决方案可用。
+        
+        python方案
+        此方案目前来看非常完美。</p>
+
+        <!-- 水平线 -->
+        <hr>
+
+        <!-- 换行标签 -->
+        <p>这是换行标签</p>
+        <br>
+        <p>上面是换行标签</p>
+
+        <!-- div span 标签 -->
+        <!-- 没有语义，作为盒子 用来添加网页 作为信息 -->
+        
+        <div> 这里是div标签 块级元素 可以修改margin border padding 值来进行修饰渲染 完整的块级结构</div>
+
+        <span>这里是span标签 是行内元素 在块级元素内 填充其他元素</span>
+        <br><br>
+
+
+        <!-- 字体格式 -->
+        <b id="two">字体加粗</b><br> <strong>XHTML推荐使用strong</strong>
+        <br>
+        <i>字体倾斜</i> <br><em>XHTML推荐使用em</em>
+        <br>
+        <s>删除线</s> <br><del>XHTML推荐使用del</del>
+        <br>
+        <u>下划线</u><br> <ins>XHTML推荐使用ins</ins>
+        <br>
+        <br>
+
+        <!-- 图像标签 -->
+        <span>
+            添加图像标签 <br>
+            src：图片路径 <br>
+            alt：图片不存在显示该段文字 <br>
+            title：鼠标悬停显示该段文字 <br>
+            width、height：高度和宽度 <br>
+            border：标签边框属性 <br>
+            <img src="./01html骨架.jpg" alt="图像不能显示 展示该段文字" title="鼠标悬停出现该段文字" width="200px" height="400px" border="3px">
+            <br>
+            显示问题 <br>
+            <img src="./sss.png" alt="图片不存在" title="图片出现问题了">
+        </span>
+
+        <br>
+
+        <!-- 链接标签 -->
+        <p>标签链接属性：</p>
+        <a style="color: red;" href="http://www.baidu.com"> <b><u>在&lt;head&gt;标签中，添加&lt;base&gt;标签指定属性target中添加链接打开方式</u></b></a><br>
+        <a href="http://www.baidu.com" target="_self"><u>在自身窗口打开链接 默认</u></a><br>
+        <a href="http://www.baidu.com" target="_blank"><u>新窗口打开连接</u></a><br><br>
+        <a href="#qwer">链接文章位置</a><br>
+        <a href="#two" style="color: red;"  target="_self"> 位置2(定位到id为two的标签位置)</a>
+
+        <!--  -->
+
+</body>
+</html>

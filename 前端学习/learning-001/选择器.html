@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器</title>
+    <style type="text/css">
+        /* 标签选择器 */
+        p {color: red;}
+        
+        /* 类选择器 */
+        .box1 {color: green;}
+        .box2 {color: greenyellow;}
+        .box3 {color: goldenrod;}
+
+        /* id选择器 */
+        #111 {color: blue;}
+        #222 {color: blueviolet;}
+
+        /* 层级选择器 */
+        .con span {color: pink;}
+
+        /* 组选择器 */
+        .big1,.big2,.big3 {font-weight: 200;height: 100;}
+
+        /* 伪类选择器 */
+        .con1{width:100px;height:100px;background:gold;}
+        .con1:hover{height:300px;color:#FF00FF;}
+
+        /* 子元素选择器 */
+        /* 只会选择儿子辈标签 */
+        .son>span {color: skyblue;}
+
+        /* 并集选择器 */
+        .sum, .sum1 {color: tomato;}
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="./选择器样式.css">
+</head>
+<body>
+    <!-- 标签选择器 -->
+    <div>此处标签不生成</div>
+    <p>标签选择器</p>
+
+    <!-- 类选择器 -->
+    <div class="box1">类选择器box1</div>
+    <p class="box2">类选择器box2</p>
+    <h3 class="box3">类选择器box3</h3>
+
+    <!-- id选择器 -->
+    <div id="222">这是id222标签</div>
+    <p id="111">这是id111标签</p>
+
+    <!-- 层级选择器 -->
+    <!-- 层级选择器会选择所有儿子孙子标签 -->
+    <div class="con">
+        <span>这是层级选择器的儿子span</span>
+        <p>
+            <span>这是孙子span</span>
+        </p>
+    </div>
+
+    <!-- 子元素选择器 -->
+    <div class="son">
+        <span>这是儿子辈标签</span>
+        <p>
+            <span>这是孙子辈标签</span>
+        </p>
+    </div>
+
+    <!-- 组选择器 -->
+    <div class="big1">这是第一个div</div>
+    <div class="big2">这是第二个div</div>
+    <div class="big3">这是第三个div</div>
+
+    <!-- 伪类选择器 -->
+    <div class="con1">伪类选择器</div>
+
+
+    <!-- 并集选择器 -->
+    <div class="sum">
+        div并集选择器
+    </div>
+    <div class="sum1">div并集选择器</div>
+    <div>并集选择器未选中</div>
+
+    <!-- 交集选择器 -->
+    <div id="111" class="summer">交集选择器选中</div>
+    <div class="summer">交集选择器不选中</div>
+
+
+</body>
+</html>
