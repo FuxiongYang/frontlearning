@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-emphasis: none;
+}
+
+/* heard */
+.header {
+    margin: 30px auto;
+    height: 42px;
+}
+.width {
+    width: 1200px;
+}
+
+/* logo */
+.logo {
+    float: left;
+    margin-right: 60px;
+}
+
+/* nav li */
+li {
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* search */
+.search {
+    float: left;
+    margin-left: 70px;
+}
+
+.search input {
+    float: left;
+    width: 340px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    padding-left: 20px;
+    color: #ccc;
+}
+
+.search button{
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(images/btn.png);
+}
+
+button {
+    border: none;
+}
+
+/* user */
+.user {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* banner */
+.banner {
+    height: 420px;
+    background: #1c036c url(images/banner2.jpg) no-repeat top center;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.leftsub {
+    float: left;
+    width: 150px;
+    height: 420px;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, .3);
+}
+
+.leftsub ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.leftsub a:hover {
+    color: #00b4ff;
+}
+
+.leftsub li {
+    height: 45px;
+    line-height: 45px;
+}
+
+.leftsub ul li a span {
+    float: right;
+}
+
+.course {
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.course-hd {
+    width: 228px;
+    height: 48px;
+    background: #9bceea;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.course-bd {
+    padding: 0 15px;
+}
+
+.course-bd h4 {
+    font-size: 14px;
+    color: black;
+}
+
+.course-bd p {
+    font-size: 8px;
+    color: grey;
+}
+
+.all {
+    display: block;
+    color: #00a4ff;
+    height: 38px;
+    text-decoration: none;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 38px;
+}
+
+.course-bd ul li {
+    border-bottom: 1px solid grey;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.course-bd ul {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* goods */
+.w {
+    margin: auto;
+    width: 1200px;
+}
+
+.goods {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #fff;
+    line-height: 60px;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, .4) ;
+}
+
+.goods-title {
+    float: left;
+    color: #00a4ff;
+}
+
+.mod {
+    float: right;
+}
